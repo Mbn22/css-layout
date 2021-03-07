@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-header{
+    width:1500px;
+    height:100px ;
+    background-color:white;
+    
+}
+
+.section__inner
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.main-nav{
+
+font-family:Arial Black ;
+font-size: 20px;
+
+}
+
+.main-menu li
+{
+ float:left;
+ margin:auto;
+ padding: 10px;
+
+}
+
+
+
+
+
+.dropdown ul{
+    display:none;
+ }  
+
+.dropdown:hover ul
+{
+    display:block;
+    position:absolute;
+}
+
+
+a{
+    color: rgb(59, 148, 118);
+}
+
+
+a:hover /* Apparence au survol des liens */
+{
+  
+  color: rgb(118, 121, 118);
+}
+
+li{
+    list-style:none;
+    
+}
+
+
+.section1{
+margin: 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.artcle1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1000px;
+    
+}
+
+.artcle1 p{
+    width: 400px ;
+}
+
+
+.section2{
+display: flex;
+justify-content: space-between;
+width: 1000px;
+}
+
+.section2 div{
+    width: 250px;
+    height: 300px;
+    border: solid;
+    border-radius: 10px / 10px ;
+    font-size: 20px;
+}
+.section2 div p , .section2 div h1,.section2 div  a{
+    color: white;
+}
+
+
+.patients{
+    background-color:greenyellow ;
+
+}
+.doctors{
+    background-color:cornflowerblue ;
+    
+}
+
+.clinics{
+    background-color:black ;
+    
+}
+
+h1{
+    color: rgb(59, 148, 118);
+}
+
+footer{
+display: flex;
+flex-direction: column;
+align-items: center;
+border-top: black  solid;
+margin-top: 30px;
+}
+
+footer p a 
+{float: inline;
+
+}
+
